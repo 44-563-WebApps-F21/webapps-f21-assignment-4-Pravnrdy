@@ -5,12 +5,29 @@ font-family: sans-serif;}
 
 .lordgoring{
     color:purple;
+    margin-left: 20px;
 }
 .ladychiltern{
     color: brown;
+    margin-left: 20px;
 }
 .robertchiltern{
     color: blue;
+    margin-left: 20px;
+
+}
+
+.robertchilternnew{
+    margin-left: 35px;
+
+}
+.lordgoringnew{
+    
+    margin-left: 35px;
+}
+.ladychilternnew{
+    
+    margin-left: 35px;
 }
 #stage-direction{
     background-color:lightgray;
@@ -46,4 +63,53 @@ tr:nth-child(even){
 }
 .robertchilternnew:hover{
     text-shadow: 2px 3px 4px red;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a {
+    display: block;
+    padding: 8px;
+    background-color: tomato;
+}
+#content {
+    position: relative;
+}
+#content img.ribbon{
+    position: absolute;
+    bottom: 0px;
+    right: 70px;
+    height: 415px;
+    width: 400px;
+}
+#content img.ribbon2{
+    position: absolute;
+    bottom: -200px;
+    right: 70px;
+    height: 415px;
+    width: 400px;
+}
+.icon:before{
+    content: '';
+    background:url('person.png');
+    background-size:cover;
+    position:absolute;
+    width:30px;
+    height:20px;
+    margin-left:-10px;
+}
+.icon2:before{
+    content: '';
+    background:url('person2.png');
+    background-size:cover;
+    position:absolute;
+    width:30px;
+    height:30px;
+    margin-left:0px;
 }
